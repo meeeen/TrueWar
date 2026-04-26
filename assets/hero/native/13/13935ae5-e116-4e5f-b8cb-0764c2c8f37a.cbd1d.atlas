@@ -1,0 +1,76 @@
+
+jybusizu-2.png
+size: 260,544
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+houtui
+  rotate: true
+  xy: 126, 2
+  size: 62, 103
+  orig: 62, 103
+  offset: 0, 0
+  index: -1
+houzhi
+  rotate: true
+  xy: 1, 77
+  size: 99, 168
+  orig: 99, 168
+  offset: 0, 0
+  index: -1
+qiantui
+  rotate: false
+  xy: 161, 54
+  size: 63, 127
+  orig: 63, 127
+  offset: 0, 0
+  index: -1
+qianzhi
+  rotate: true
+  xy: 74, 145
+  size: 119, 182
+  orig: 119, 182
+  offset: 0, 0
+  index: -1
+shen
+  rotate: true
+  xy: 1, 215
+  size: 127, 182
+  orig: 127, 182
+  offset: 0, 0
+  index: -1
+tou
+  rotate: false
+  xy: 1, 344
+  size: 191, 198
+  orig: 191, 198
+  offset: 0, 0
+  index: -1
+yanjing-1
+  rotate: false
+  xy: 1, 33
+  size: 117, 44
+  orig: 117, 44
+  offset: 0, 0
+  index: -1
+yanjing-2
+  rotate: false
+  xy: 1, 2
+  size: 112, 29
+  orig: 112, 29
+  offset: 0, 0
+  index: -1
+yun
+  rotate: false
+  xy: 146, 305
+  size: 33, 29
+  orig: 33, 29
+  offset: 0, 0
+  index: -1
+yy
+  rotate: true
+  xy: 194, 311
+  size: 231, 62
+  orig: 231, 62
+  offset: 0, 0
+  index: -1

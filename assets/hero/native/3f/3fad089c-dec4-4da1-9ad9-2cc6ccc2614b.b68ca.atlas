@@ -1,0 +1,76 @@
+
+jyjinglingzu-1.png
+size: 648,260
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+houshou
+  rotate: true
+  xy: 260, 58
+  size: 201, 182
+  orig: 201, 182
+  offset: 0, 0
+  index: -1
+houtui
+  rotate: false
+  xy: 598, 2
+  size: 48, 54
+  orig: 48, 54
+  offset: 0, 0
+  index: -1
+qianshou
+  rotate: 180
+  xy: 514, 10
+  size: 82, 153
+  orig: 82, 153
+  offset: 0, 0
+  index: -1
+qiantui
+  rotate: 180
+  xy: 594, 106
+  size: 52, 70
+  orig: 52, 70
+  offset: 0, 0
+  index: -1
+shenti
+  rotate: false
+  xy: 508, 156
+  size: 99, 103
+  orig: 99, 103
+  offset: 0, 0
+  index: -1
+tou
+  rotate: false
+  xy: 1, 31
+  size: 257, 228
+  orig: 257, 228
+  offset: 0, 0
+  index: -1
+yanjing-1
+  rotate: false
+  xy: 260, 1
+  size: 126, 55
+  orig: 126, 55
+  offset: 0, 0
+  index: -1
+yanjing-2
+  rotate: true
+  xy: 396, 30
+  size: 104, 31
+  orig: 104, 31
+  offset: 0, 0
+  index: -1
+yun
+  rotate: false
+  xy: 508, 3
+  size: 33, 29
+  orig: 33, 29
+  offset: 0, 0
+  index: -1
+yy
+  rotate: true
+  xy: 444, 28
+  size: 231, 62
+  orig: 231, 62
+  offset: 0, 0
+  index: -1

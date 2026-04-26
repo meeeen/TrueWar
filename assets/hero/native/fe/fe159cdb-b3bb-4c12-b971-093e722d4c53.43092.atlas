@@ -1,0 +1,111 @@
+
+jyshouzu-2.png
+size: 276,1140
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+gutou1
+  rotate: false
+  xy: 152, 191
+  size: 88, 174
+  orig: 90, 176
+  offset: 1, 1
+  index: -1
+gutou2
+  rotate: true
+  xy: 2, 216
+  size: 111, 148
+  orig: 113, 150
+  offset: 1, 1
+  index: -1
+gutou3
+  rotate: false
+  xy: 2, 854
+  size: 225, 284
+  orig: 227, 286
+  offset: 1, 1
+  index: -1
+houshou
+  rotate: true
+  xy: 2, 67
+  size: 147, 165
+  orig: 147, 165
+  offset: 0, 0
+  index: -1
+houtui
+  rotate: false
+  xy: 208, 741
+  size: 63, 81
+  orig: 63, 81
+  offset: 0, 0
+  index: -1
+jianjia
+  rotate: false
+  xy: 169, 67
+  size: 80, 84
+  orig: 82, 86
+  offset: 1, 1
+  index: -1
+qianshou
+  rotate: true
+  xy: 2, 367
+  size: 290, 197
+  orig: 298, 197
+  offset: 0, 0
+  index: -1
+qiantui
+  rotate: false
+  xy: 195, 400
+  size: 65, 97
+  orig: 65, 97
+  offset: 0, 0
+  index: -1
+shenti
+  rotate: 270
+  xy: 3, 330
+  size: 149, 156
+  orig: 190, 156
+  offset: 0, 0
+  index: -1
+tou
+  rotate: true
+  xy: 2, 658
+  size: 194, 204
+  orig: 196, 206
+  offset: 1, 1
+  index: -1
+xiashen
+  rotate: 270
+  xy: 173, 499
+  size: 142, 73
+  orig: 142, 73
+  offset: 0, 0
+  index: -1
+yanjing-1
+  rotate: true
+  xy: 215, 639
+  size: 100, 38
+  orig: 102, 40
+  offset: 1, 1
+  index: -1
+yanjing-2
+  rotate: false
+  xy: 169, 153
+  size: 97, 23
+  orig: 99, 25
+  offset: 1, 1
+  index: -1
+yun
+  rotate: false
+  xy: 235, 36
+  size: 33, 29
+  orig: 33, 29
+  offset: 0, 0
+  index: -1
+yy
+  rotate: false
+  xy: 2, 3
+  size: 231, 62
+  orig: 231, 62
+  offset: 0, 0
+  index: -1

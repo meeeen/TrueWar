@@ -1,0 +1,90 @@
+
+jybusizu-1.png
+size: 312,736
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+gutou
+  rotate: false
+  xy: 247, 495
+  size: 57, 52
+  orig: 57, 52
+  offset: 0, 0
+  index: -1
+shen
+  rotate: true
+  xy: 1, 331
+  size: 153, 171
+  orig: 165, 178
+  offset: 8, 7
+  index: -1
+tou
+  rotate: false
+  xy: 1, 485
+  size: 244, 250
+  orig: 244, 250
+  offset: 0, 0
+  index: -1
+yanjing-1
+  rotate: false
+  xy: 1, 65
+  size: 83, 78
+  orig: 83, 78
+  offset: 0, 0
+  index: -1
+youjiao
+  rotate: false
+  xy: 235, 236
+  size: 74, 89
+  orig: 79, 89
+  offset: 5, 0
+  index: -1
+youshou1
+  rotate: 180
+  xy: 151, 6
+  size: 152, 130
+  orig: 152, 130
+  offset: 0, 0
+  index: -1
+youshou2
+  rotate: true
+  xy: 105, 98
+  size: 141, 157
+  orig: 141, 157
+  offset: 0, 0
+  index: -1
+yun
+  rotate: false
+  xy: 1, 34
+  size: 33, 29
+  orig: 33, 29
+  offset: 0, 0
+  index: -1
+yy
+  rotate: false
+  xy: 1, 267
+  size: 231, 62
+  orig: 231, 62
+  offset: 0, 0
+  index: -1
+zuojiao
+  rotate: 270
+  xy: 48, 2
+  size: 76, 102
+  orig: 84, 108
+  offset: 8, 0
+  index: -1
+zuoshou1
+  rotate: false
+  xy: 168, 328
+  size: 132, 166
+  orig: 150, 183
+  offset: 0, 0
+  index: -1
+zuoshou2
+  rotate: false
+  xy: 1, 145
+  size: 198, 120
+  orig: 212, 120
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,48 @@
+
+jinglingzu-2.png
+size: 556,236
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+shenti
+  rotate: true
+  xy: 239, 86
+  size: 146, 126
+  orig: 146, 126
+  offset: 0, 0
+  index: -1
+tou
+  rotate: false
+  xy: 1, 5
+  size: 236, 227
+  orig: 236, 227
+  offset: 0, 0
+  index: -1
+yanjing-1
+  rotate: true
+  xy: 430, 76
+  size: 156, 83
+  orig: 156, 83
+  offset: 0, 0
+  index: -1
+yanjing-2
+  rotate: true
+  xy: 515, 95
+  size: 137, 39
+  orig: 137, 39
+  offset: 0, 0
+  index: -1
+yun
+  rotate: false
+  xy: 239, 67
+  size: 33, 29
+  orig: 33, 29
+  offset: 0, 0
+  index: -1
+yy
+  rotate: true
+  xy: 366, 1
+  size: 231, 62
+  orig: 231, 62
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,193 @@
+
+zhujue.png
+size: 2048,1916
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+L-hand
+  rotate: true
+  xy: 1803, 500
+  size: 307, 210
+  orig: 307, 210
+  offset: 0, 0
+  index: -1
+L-hand - 副本 (2)
+  rotate: false
+  xy: 1652, 809
+  size: 335, 329
+  orig: 335, 362
+  offset: 0, 0
+  index: -1
+L-hand-fx1
+  rotate: true
+  xy: 1652, 1140
+  size: 359, 342
+  orig: 359, 342
+  offset: 0, 0
+  index: -1
+L-win
+  rotate: true
+  xy: 1618, 26
+  size: 277, 284
+  orig: 277, 284
+  offset: 0, 0
+  index: -1
+R -hand
+  rotate: false
+  xy: 525, 41
+  size: 265, 176
+  orig: 286, 190
+  offset: 21, 14
+  index: -1
+R-win
+  rotate: false
+  xy: 302, 1
+  size: 221, 215
+  orig: 221, 215
+  offset: 0, 0
+  index: -1
+boy
+  rotate: 270
+  xy: 1033, 55
+  size: 161, 174
+  orig: 161, 174
+  offset: 0, 0
+  index: -1
+dead-wuqi1
+  rotate: false
+  xy: 1, 79
+  size: 299, 137
+  orig: 299, 137
+  offset: 0, 0
+  index: -1
+dead-wuqi2
+  rotate: false
+  xy: 1652, 305
+  size: 312, 142
+  orig: 312, 142
+  offset: 0, 0
+  index: -1
+effect
+  rotate: false
+  xy: 1378, 123
+  size: 170, 93
+  orig: 174, 98
+  offset: 0, 4
+  index: -1
+effect4
+  rotate: false
+  xy: 1209, 93
+  size: 167, 123
+  orig: 219, 150
+  offset: 14, 15
+  index: -1
+head
+  rotate: true
+  xy: 1652, 1501
+  size: 412, 354
+  orig: 412, 354
+  offset: 0, 0
+  index: -1
+qunbai1
+  rotate: false
+  xy: 1803, 687
+  size: 66, 67
+  orig: 66, 67
+  offset: 0, 0
+  index: -1
+qunbai2
+  rotate: false
+  xy: 1961, 736
+  size: 85, 71
+  orig: 85, 71
+  offset: 0, 0
+  index: -1
+qunbai3
+  rotate: false
+  xy: 1977, 429
+  size: 70, 109
+  orig: 70, 109
+  offset: 0, 0
+  index: -1
+toufa
+  rotate: true
+  xy: 791, 46
+  size: 170, 240
+  orig: 170, 240
+  offset: 0, 0
+  index: -1
+wuqi-fx
+  rotate: true
+  xy: 1652, 449
+  size: 358, 149
+  orig: 406, 196
+  offset: 17, 22
+  index: -1
+you jiao
+  rotate: false
+  xy: 1966, 319
+  size: 79, 108
+  orig: 79, 108
+  offset: 0, 0
+  index: -1
+yy
+  rotate: false
+  xy: 1378, 59
+  size: 231, 62
+  orig: 231, 62
+  offset: 0, 0
+  index: -1
+zhujue
+  rotate: false
+  xy: 1, 218
+  size: 1649, 1695
+  orig: 1674, 1746
+  offset: 18, 11
+  index: -1
+zuo jiao
+  rotate: false
+  xy: 1803, 457
+  size: 88, 135
+  orig: 88, 135
+  offset: 0, 0
+  index: -1
+
+zhujue2.png
+size: 1352,1764
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+dao-fx
+  rotate: false
+  xy: 1, 1
+  size: 898, 736
+  orig: 1024, 1024
+  offset: 67, 91
+  index: -1
+dead-rwnwu
+  rotate: true
+  xy: 901, 1
+  size: 670, 449
+  orig: 670, 449
+  offset: 0, 0
+  index: -1
+xuanzhuan
+  rotate: false
+  xy: 1, 739
+  size: 1024, 1024
+  orig: 1024, 1024
+  offset: 0, 0
+  index: -1
+
+zhujue3.png
+size: 1028,1028
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+yuan
+  rotate: false
+  xy: 1, 1
+  size: 1024, 1024
+  orig: 1024, 1024
+  offset: 0, 0
+  index: -1

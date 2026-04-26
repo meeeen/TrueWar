@@ -1,0 +1,76 @@
+
+busizu-1.png
+size: 248,476
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+shen
+  rotate: false
+  xy: 146, 113
+  size: 100, 129
+  orig: 100, 129
+  offset: 0, 0
+  index: -1
+tou
+  rotate: false
+  xy: 1, 283
+  size: 176, 192
+  orig: 176, 192
+  offset: 0, 0
+  index: -1
+yanjing-1
+  rotate: false
+  xy: 155, 65
+  size: 89, 46
+  orig: 89, 46
+  offset: 0, 0
+  index: -1
+yanjing-2
+  rotate: false
+  xy: 101, 35
+  size: 92, 28
+  orig: 92, 28
+  offset: 0, 0
+  index: -1
+youjiao
+  rotate: true
+  xy: 31, 2
+  size: 48, 72
+  orig: 48, 72
+  offset: 0, 0
+  index: -1
+youshou
+  rotate: false
+  xy: 16, 84
+  size: 137, 113
+  orig: 137, 113
+  offset: 0, 0
+  index: -1
+yun
+  rotate: false
+  xy: 130, 252
+  size: 33, 29
+  orig: 33, 29
+  offset: 0, 0
+  index: -1
+yy
+  rotate: true
+  xy: 179, 244
+  size: 231, 62
+  orig: 231, 62
+  offset: 0, 0
+  index: -1
+zuojiao
+  rotate: 270
+  xy: 13, 48
+  size: 50, 88
+  orig: 50, 88
+  offset: 0, 0
+  index: -1
+zuoshou
+  rotate: false
+  xy: 1, 167
+  size: 151, 114
+  orig: 151, 114
+  offset: 0, 0
+  index: -1

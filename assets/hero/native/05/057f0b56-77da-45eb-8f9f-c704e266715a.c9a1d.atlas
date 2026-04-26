@@ -1,0 +1,48 @@
+
+beiji.png
+size: 540,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bj_2
+  rotate: false
+  xy: 480, 15
+  size: 46, 46
+  orig: 52, 52
+  offset: 3, 3
+  index: -1
+bj_3
+  rotate: false
+  xy: 480, 63
+  size: 59, 64
+  orig: 65, 69
+  offset: 3, 3
+  index: -1
+bj_4
+  rotate: false
+  xy: 378, 21
+  size: 100, 106
+  orig: 106, 111
+  offset: 3, 2
+  index: -1
+bj_5
+  rotate: false
+  xy: 258, 8
+  size: 118, 119
+  orig: 123, 123
+  offset: 2, 2
+  index: -1
+bj_6
+  rotate: false
+  xy: 131, 3
+  size: 125, 124
+  orig: 130, 128
+  offset: 2, 2
+  index: -1
+bj_7
+  rotate: false
+  xy: 1, 1
+  size: 128, 126
+  orig: 134, 131
+  offset: 3, 2
+  index: -1

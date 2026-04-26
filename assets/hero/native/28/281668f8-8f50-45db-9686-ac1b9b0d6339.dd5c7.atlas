@@ -1,0 +1,76 @@
+
+busizu-2.png
+size: 528,252
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+houtui
+  rotate: 270
+  xy: 234, 2
+  size: 56, 87
+  orig: 56, 87
+  offset: 0, 0
+  index: -1
+houzhi
+  rotate: 270
+  xy: 364, 121
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+qiantui
+  rotate: true
+  xy: 366, 10
+  size: 50, 106
+  orig: 50, 106
+  offset: 0, 0
+  index: -1
+qianzhi
+  rotate: false
+  xy: 200, 72
+  size: 114, 177
+  orig: 114, 177
+  offset: 0, 0
+  index: -1
+shen
+  rotate: false
+  xy: 294, 33
+  size: 103, 142
+  orig: 108, 142
+  offset: 5, 0
+  index: -1
+tou
+  rotate: false
+  xy: 1, 84
+  size: 169, 165
+  orig: 169, 165
+  offset: 0, 0
+  index: -1
+yanjing-1
+  rotate: false
+  xy: 398, 62
+  size: 110, 57
+  orig: 110, 57
+  offset: 0, 0
+  index: -1
+yanjing-2
+  rotate: true
+  xy: 494, 121
+  size: 106, 30
+  orig: 106, 30
+  offset: 0, 0
+  index: -1
+yun
+  rotate: false
+  xy: 172, 220
+  size: 33, 29
+  orig: 33, 29
+  offset: 0, 0
+  index: -1
+yy
+  rotate: false
+  xy: 1, 20
+  size: 231, 62
+  orig: 231, 62
+  offset: 0, 0
+  index: -1
