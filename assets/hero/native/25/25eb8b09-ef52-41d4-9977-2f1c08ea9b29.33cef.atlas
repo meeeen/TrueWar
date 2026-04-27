@@ -1,0 +1,76 @@
+
+slbusizu-1.png
+size: 260,548
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+houtui
+  rotate: true
+  xy: 127, 3
+  size: 62, 103
+  orig: 62, 103
+  offset: 0, 0
+  index: -1
+houzhi
+  rotate: true
+  xy: 2, 76
+  size: 99, 168
+  orig: 99, 168
+  offset: 0, 0
+  index: -1
+qiantui
+  rotate: false
+  xy: 162, 55
+  size: 63, 127
+  orig: 63, 127
+  offset: 0, 0
+  index: -1
+qianzhi
+  rotate: true
+  xy: 72, 146
+  size: 119, 182
+  orig: 119, 182
+  offset: 0, 0
+  index: -1
+shen
+  rotate: true
+  xy: 2, 219
+  size: 127, 182
+  orig: 127, 182
+  offset: 0, 0
+  index: -1
+tou
+  rotate: false
+  xy: 2, 348
+  size: 189, 196
+  orig: 191, 198
+  offset: 1, 1
+  index: -1
+yanjing-1
+  rotate: false
+  xy: 2, 35
+  size: 115, 42
+  orig: 117, 44
+  offset: 1, 1
+  index: -1
+yanjing-2
+  rotate: false
+  xy: 2, 6
+  size: 110, 27
+  orig: 112, 29
+  offset: 1, 1
+  index: -1
+yun
+  rotate: false
+  xy: 147, 309
+  size: 33, 29
+  orig: 33, 29
+  offset: 0, 0
+  index: -1
+yy
+  rotate: true
+  xy: 193, 313
+  size: 231, 62
+  orig: 231, 62
+  offset: 0, 0
+  index: -1

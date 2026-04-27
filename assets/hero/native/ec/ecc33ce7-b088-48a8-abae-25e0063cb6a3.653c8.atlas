@@ -1,0 +1,62 @@
+
+mainbox.png
+size: 392,160
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+G2
+  rotate: false
+  xy: 1, 9
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+bx1
+  rotate: false
+  xy: 309, 79
+  size: 80, 70
+  orig: 80, 70
+  offset: 0, 0
+  index: -1
+bx2
+  rotate: false
+  xy: 153, 1
+  size: 80, 75
+  orig: 80, 81
+  offset: 0, 3
+  index: -1
+bx_d1
+  rotate: false
+  xy: 327, 45
+  size: 35, 15
+  orig: 35, 15
+  offset: 0, 0
+  index: -1
+bx_d2
+  rotate: false
+  xy: 327, 62
+  size: 37, 15
+  orig: 37, 15
+  offset: 0, 0
+  index: -1
+bx_g1
+  rotate: true
+  xy: 235, 79
+  size: 80, 72
+  orig: 80, 72
+  offset: 0, 0
+  index: -1
+bx_g2
+  rotate: false
+  xy: 153, 78
+  size: 80, 81
+  orig: 80, 81
+  offset: 0, 0
+  index: -1
+xing
+  rotate: true
+  xy: 235, 14
+  size: 63, 90
+  orig: 63, 102
+  offset: 0, 4
+  index: -1

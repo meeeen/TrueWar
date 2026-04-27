@@ -1,0 +1,20 @@
+
+zhuanchang.png
+size: 380,360
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+BAI
+  rotate: false
+  xy: 367, 346
+  size: 10, 10
+  orig: 10, 10
+  offset: 0, 0
+  index: -1
+KA1
+  rotate: false
+  xy: 1, 1
+  size: 364, 355
+  orig: 424, 355
+  offset: 30, 0
+  index: -1
