@@ -1,0 +1,55 @@
+
+GuaJi.png
+size: 152,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bs
+  rotate: true
+  xy: 1, 75
+  size: 75, 149
+  orig: 75, 149
+  offset: 0, 0
+  index: -1
+bs-g
+  rotate: 270
+  xy: 1, 2
+  size: 75, 149
+  orig: 75, 149
+  offset: 0, 0
+  index: -1
+dz
+  rotate: false
+  xy: 1, 152
+  size: 148, 103
+  orig: 148, 103
+  offset: 0, 0
+  index: -1
+xx-1
+  rotate: false
+  xy: 1, 131
+  size: 13, 19
+  orig: 13, 19
+  offset: 0, 0
+  index: -1
+xx-2
+  rotate: false
+  xy: 15, 5
+  size: 9, 12
+  orig: 9, 13
+  offset: 0, 1
+  index: -1
+xx-3
+  rotate: false
+  xy: 1, 8
+  size: 12, 17
+  orig: 12, 18
+  offset: 0, 1
+  index: -1
+xx-4
+  rotate: false
+  xy: 16, 137
+  size: 10, 13
+  orig: 10, 13
+  offset: 0, 0
+  index: -1
