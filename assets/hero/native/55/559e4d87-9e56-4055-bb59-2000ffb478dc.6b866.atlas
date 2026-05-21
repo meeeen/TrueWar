@@ -1,0 +1,48 @@
+
+jinglingzu-1.png
+size: 236,716
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+houshou
+  rotate: false
+  xy: 153, 3
+  size: 59, 11
+  orig: 59, 41
+  offset: 0, 15
+  index: -1
+qianshou
+  rotate: false
+  xy: 102, 10
+  size: 53, 16
+  orig: 59, 48
+  offset: 3, 16
+  index: -1
+shenti
+  rotate: false
+  xy: 1, 1
+  size: 100, 78
+  orig: 122, 78
+  offset: 11, 0
+  index: -1
+tou
+  rotate: false
+  xy: 1, 431
+  size: 212, 284
+  orig: 212, 284
+  offset: 0, 0
+  index: -1
+tou-dead
+  rotate: false
+  xy: 1, 145
+  size: 212, 284
+  orig: 212, 284
+  offset: 0, 0
+  index: -1
+yy
+  rotate: false
+  xy: 1, 81
+  size: 231, 62
+  orig: 231, 62
+  offset: 0, 0
+  index: -1

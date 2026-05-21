@@ -1,0 +1,90 @@
+
+slshouzu-1.png
+size: 292,612
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+houshou
+  rotate: false
+  xy: 1, 48
+  size: 157, 137
+  orig: 157, 137
+  offset: 0, 0
+  index: -1
+houtui
+  rotate: false
+  xy: 230, 481
+  size: 56, 75
+  orig: 56, 75
+  offset: 0, 0
+  index: -1
+qianshou
+  rotate: false
+  xy: 160, 73
+  size: 92, 112
+  orig: 92, 112
+  offset: 0, 0
+  index: -1
+qianshou2
+  rotate: true
+  xy: 1, 251
+  size: 124, 174
+  orig: 124, 174
+  offset: 0, 0
+  index: -1
+qiantui
+  rotate: 270
+  xy: 183, 2
+  size: 60, 104
+  orig: 60, 104
+  offset: 0, 0
+  index: -1
+shenti
+  rotate: true
+  xy: 177, 252
+  size: 122, 95
+  orig: 122, 95
+  offset: 0, 0
+  index: -1
+tou
+  rotate: false
+  xy: 1, 377
+  size: 227, 234
+  orig: 227, 234
+  offset: 0, 0
+  index: -1
+yanjing-1
+  rotate: true
+  xy: 230, 371
+  size: 108, 51
+  orig: 108, 51
+  offset: 0, 0
+  index: -1
+yanjing-2
+  rotate: true
+  xy: 254, 64
+  size: 95, 31
+  orig: 95, 31
+  offset: 0, 0
+  index: -1
+yaodai
+  rotate: false
+  xy: 70, 4
+  size: 120, 79
+  orig: 120, 79
+  offset: 0, 0
+  index: -1
+yun
+  rotate: false
+  xy: 1, 17
+  size: 33, 29
+  orig: 33, 29
+  offset: 0, 0
+  index: -1
+yy
+  rotate: false
+  xy: 1, 187
+  size: 231, 62
+  orig: 231, 62
+  offset: 0, 0
+  index: -1
