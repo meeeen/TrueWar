@@ -27,8 +27,7 @@ window.boot = function () {
     var onStart = function () {
 
         cc.view.enableRetina(true);
-        cc.view.resizeWithBrowserSize(false);
-        window.__TRUEWAR_FIXED_WEB_FRAME__ && window.__TRUEWAR_FIXED_WEB_FRAME__.install(cc);
+        cc.view.resizeWithBrowserSize(true);
 
         if (cc.sys.isBrowser) {
             setLoadingDisplay();

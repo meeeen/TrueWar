@@ -2,168 +2,54 @@
 <html>
 <head>
   <meta charset="utf-8">
-
   <title>Cocos Creator | warStage</title>
-
-  <!--http://www.html5rocks.com/en/mobile/mobifying/-->
-  <meta name="viewport"
-        content="width=device-width,user-scalable=no,initial-scale=1, minimum-scale=1,maximum-scale=1"/>
-
-  <!--https://developer.apple.com/library/safari/documentation/AppleApplications/Reference/SafariHTMLRef/Articles/MetaTags.html-->
+  <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,minimum-scale=1,maximum-scale=1,viewport-fit=cover">
+  <meta name="mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="format-detection" content="telephone=no">
-
-  <!-- force webkit on 360 -->
-  <meta name="renderer" content="webkit"/>
-  <meta name="force-rendering" content="webkit"/>
-  <!-- force edge on IE -->
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
-  <meta name="msapplication-tap-highlight" content="no">
-
-  <!-- force full screen on some browser -->
-  <meta name="full-screen" content="yes"/>
-  <meta name="x5-fullscreen" content="true"/>
-  <meta name="360-fullscreen" content="true"/>
-  
-  <!-- force screen orientation on some browser -->
-  <meta name="screen-orientation" content="portrait"/>
+  <meta name="screen-orientation" content="portrait">
   <meta name="x5-orientation" content="portrait">
+  <meta name="TRUEWAR_FIXED_WEB_FRAME_SHELL" content="720x1600">
+  <link rel="icon" href="favicon.8de18.ico">
+  <style>
+    html,
+    body {
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background: #000;
+    }
 
-  <!--fix fireball/issues/3568 -->
-  <!--<meta name="browsermode" content="application">-->
-  <meta name="x5-page-mode" content="app">
+    body {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      touch-action: none;
+    }
 
-  <!--<link rel="apple-touch-icon" href=".png" />-->
-  <!--<link rel="apple-touch-icon-precomposed" href=".png" />-->
+    #truewarFixedFrame {
+      width: min(100vw, 45vh);
+      height: min(100vh, 222.2222222222vw);
+      overflow: hidden;
+      background: #000;
+      position: relative;
+    }
 
-  <link rel="stylesheet" type="text/css" href="style-mobile.25fc5.css"/>
-  <link rel="icon" href="favicon.8de18.ico"/>
+    #truewarGameFrame {
+      width: 100%;
+      height: 100%;
+      border: 0;
+      display: block;
+      background: #000;
+    }
+  </style>
 </head>
 <body>
-  <canvas id="GameCanvas" oncontextmenu="event.preventDefault()" tabindex="0"></canvas>
-  <div id="splash">
-    <div class="progress-bar stripes">
-      <span style="width: 0%"></span>
-    </div>
+  <div id="truewarFixedFrame">
+    <iframe id="truewarGameFrame" src="truewar-game.html" scrolling="no" allow="autoplay; fullscreen; clipboard-read; clipboard-write"></iframe>
   </div>
-
-<!-- TRUEWAR_FIXED_WEB_FRAME_START -->
-<script>
-(function () {
-  var DESIGN_WIDTH = 720;
-  var DESIGN_HEIGHT = 1600;
-  var installed = false;
-  var ccRef = null;
-  var resizeTimer = 0;
-
-  function computeFrame() {
-    var viewportWidth = Math.max(1, window.innerWidth || document.documentElement.clientWidth || DESIGN_WIDTH);
-    var viewportHeight = Math.max(1, window.innerHeight || document.documentElement.clientHeight || DESIGN_HEIGHT);
-    var scale = Math.min(viewportWidth / DESIGN_WIDTH, viewportHeight / DESIGN_HEIGHT);
-    return {
-      width: Math.max(1, Math.floor(DESIGN_WIDTH * scale)),
-      height: Math.max(1, Math.floor(DESIGN_HEIGHT * scale))
-    };
-  }
-
-  function setBoxStyle(node, frame, fixed) {
-    if (!node) {
-      return;
-    }
-    node.style.width = frame.width + 'px';
-    node.style.height = frame.height + 'px';
-    if (fixed) {
-      node.style.position = 'fixed';
-      node.style.left = '50%';
-      node.style.top = '50%';
-      node.style.transform = 'translate(-50%, -50%)';
-    }
-  }
-
-  function applyFrame() {
-    var frame = computeFrame();
-    document.documentElement.style.backgroundColor = '#000';
-    document.body.style.backgroundColor = '#000';
-    document.body.style.overflow = 'hidden';
-
-    setBoxStyle(document.getElementById('Cocos2dGameContainer'), frame, true);
-    setBoxStyle(document.getElementById('GameCanvas'), frame, false);
-    setBoxStyle(document.getElementById('splash'), frame, true);
-
-    if (ccRef && ccRef.view) {
-      if (typeof ccRef.view.resizeWithBrowserSize === 'function') {
-        ccRef.view.resizeWithBrowserSize(false);
-      }
-      if (typeof ccRef.view.setFrameSize === 'function') {
-        ccRef.view.setFrameSize(frame.width, frame.height);
-      }
-      if (ccRef.ResolutionPolicy && typeof ccRef.view.setDesignResolutionSize === 'function') {
-        ccRef.view.setDesignResolutionSize(DESIGN_WIDTH, DESIGN_HEIGHT, ccRef.ResolutionPolicy.FIXED_WIDTH);
-      }
-    }
-  }
-
-  function requestApplyFrame() {
-    window.clearTimeout(resizeTimer);
-    resizeTimer = window.setTimeout(applyFrame, 50);
-  }
-
-  window.__TRUEWAR_FIXED_WEB_FRAME__ = {
-    install: function (cc) {
-      ccRef = cc;
-      applyFrame();
-      if (!installed) {
-        installed = true;
-        window.addEventListener('resize', requestApplyFrame, false);
-        window.addEventListener('orientationchange', requestApplyFrame, false);
-      }
-    },
-    apply: applyFrame,
-    designWidth: DESIGN_WIDTH,
-    designHeight: DESIGN_HEIGHT
-  };
-})();
-</script>
-<!-- TRUEWAR_FIXED_WEB_FRAME_END -->
-
-<script src="src/settings.9882a.js" charset="utf-8"></script>
-
-<script src="main.06536.js" charset="utf-8"></script>
-
-<script type="text/javascript">
-(function () {
-    // open web debugger console
-    if (typeof VConsole !== 'undefined') {
-        window.vConsole = new VConsole();
-    }
-
-    var debug = window._CCSettings.debug;
-    var splash = document.getElementById('splash');
-    splash.style.display = 'block';
-
-    function loadScript (moduleName, cb) {
-      function scriptLoaded () {
-          document.body.removeChild(domScript);
-          domScript.removeEventListener('load', scriptLoaded, false);
-          cb && cb();
-      };
-      var domScript = document.createElement('script');
-      domScript.async = true;
-      domScript.src = moduleName;
-      domScript.addEventListener('load', scriptLoaded, false);
-      document.body.appendChild(domScript);
-    }
-
-    loadScript(debug ? 'cocos2d-js.js' : 'cocos2d-js-min.f0faf.js', function () {
-      if (CC_PHYSICS_BUILTIN || CC_PHYSICS_CANNON) {
-        loadScript(debug ? 'physics.js' : 'physics-min.7f489.js', window.boot);
-      }
-      else {
-        window.boot();
-      }
-    });
-})();
-</script>
 </body>
 </html>
