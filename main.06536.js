@@ -27,7 +27,8 @@ window.boot = function () {
     var onStart = function () {
 
         cc.view.enableRetina(true);
-        cc.view.resizeWithBrowserSize(true);
+        cc.view.resizeWithBrowserSize(false);
+        window.__TRUEWAR_FIXED_WEB_FRAME__ && window.__TRUEWAR_FIXED_WEB_FRAME__.install(cc);
 
         if (cc.sys.isBrowser) {
             setLoadingDisplay();
@@ -123,7 +124,7 @@ window.boot = function () {
 if (window.jsb) {
     var isRuntime = (typeof loadRuntime === 'function');
     if (isRuntime) {
-        require('src/settings.33929.js');
+        require('src/settings.9882a.js');
         require('src/cocos2d-runtime.js');
         if (CC_PHYSICS_BUILTIN || CC_PHYSICS_CANNON) {
             require('src/physics.js');
@@ -131,7 +132,7 @@ if (window.jsb) {
         require('jsb-adapter/engine/index.js');
     }
     else {
-        require('src/settings.33929.js');
+        require('src/settings.9882a.js');
         require('src/cocos2d-jsb.js');
         if (CC_PHYSICS_BUILTIN || CC_PHYSICS_CANNON) {
             require('src/physics.js');

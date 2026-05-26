@@ -48,9 +48,88 @@
     </div>
   </div>
 
-<script src="src/settings.33929.js" charset="utf-8"></script>
+<!-- TRUEWAR_FIXED_WEB_FRAME_START -->
+<script>
+(function () {
+  var DESIGN_WIDTH = 720;
+  var DESIGN_HEIGHT = 1600;
+  var installed = false;
+  var ccRef = null;
+  var resizeTimer = 0;
 
-<script src="main.e2f7d.js" charset="utf-8"></script>
+  function computeFrame() {
+    var viewportWidth = Math.max(1, window.innerWidth || document.documentElement.clientWidth || DESIGN_WIDTH);
+    var viewportHeight = Math.max(1, window.innerHeight || document.documentElement.clientHeight || DESIGN_HEIGHT);
+    var scale = Math.min(viewportWidth / DESIGN_WIDTH, viewportHeight / DESIGN_HEIGHT);
+    return {
+      width: Math.max(1, Math.floor(DESIGN_WIDTH * scale)),
+      height: Math.max(1, Math.floor(DESIGN_HEIGHT * scale))
+    };
+  }
+
+  function setBoxStyle(node, frame, fixed) {
+    if (!node) {
+      return;
+    }
+    node.style.width = frame.width + 'px';
+    node.style.height = frame.height + 'px';
+    if (fixed) {
+      node.style.position = 'fixed';
+      node.style.left = '50%';
+      node.style.top = '50%';
+      node.style.transform = 'translate(-50%, -50%)';
+    }
+  }
+
+  function applyFrame() {
+    var frame = computeFrame();
+    document.documentElement.style.backgroundColor = '#000';
+    document.body.style.backgroundColor = '#000';
+    document.body.style.overflow = 'hidden';
+
+    setBoxStyle(document.getElementById('Cocos2dGameContainer'), frame, true);
+    setBoxStyle(document.getElementById('GameCanvas'), frame, false);
+    setBoxStyle(document.getElementById('splash'), frame, true);
+
+    if (ccRef && ccRef.view) {
+      if (typeof ccRef.view.resizeWithBrowserSize === 'function') {
+        ccRef.view.resizeWithBrowserSize(false);
+      }
+      if (typeof ccRef.view.setFrameSize === 'function') {
+        ccRef.view.setFrameSize(frame.width, frame.height);
+      }
+      if (ccRef.ResolutionPolicy && typeof ccRef.view.setDesignResolutionSize === 'function') {
+        ccRef.view.setDesignResolutionSize(DESIGN_WIDTH, DESIGN_HEIGHT, ccRef.ResolutionPolicy.FIXED_WIDTH);
+      }
+    }
+  }
+
+  function requestApplyFrame() {
+    window.clearTimeout(resizeTimer);
+    resizeTimer = window.setTimeout(applyFrame, 50);
+  }
+
+  window.__TRUEWAR_FIXED_WEB_FRAME__ = {
+    install: function (cc) {
+      ccRef = cc;
+      applyFrame();
+      if (!installed) {
+        installed = true;
+        window.addEventListener('resize', requestApplyFrame, false);
+        window.addEventListener('orientationchange', requestApplyFrame, false);
+      }
+    },
+    apply: applyFrame,
+    designWidth: DESIGN_WIDTH,
+    designHeight: DESIGN_HEIGHT
+  };
+})();
+</script>
+<!-- TRUEWAR_FIXED_WEB_FRAME_END -->
+
+<script src="src/settings.9882a.js" charset="utf-8"></script>
+
+<script src="main.06536.js" charset="utf-8"></script>
 
 <script type="text/javascript">
 (function () {

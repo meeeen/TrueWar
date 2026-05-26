@@ -122,3 +122,57 @@ p.footer {
 @keyframes animate-stripes {
     0% {background-position: 0 0;} 100% {background-position: 60px 0;}
 }
+/* TRUEWAR_FIXED_WEB_FRAME_START */
+:root {
+  --truewar-frame-width: 720;
+  --truewar-frame-height: 1600;
+}
+
+html, body {
+  width: 100% !important;
+  height: 100% !important;
+  min-width: 100% !important;
+  min-height: 100% !important;
+  overflow: hidden !important;
+  background: #000 !important;
+}
+
+body {
+  position: fixed !important;
+  inset: 0 !important;
+  display: block !important;
+}
+
+#Cocos2dGameContainer,
+#GameCanvas,
+#splash {
+  width: calc(min(100vw, 45vh)) !important;
+  height: calc(min(100vh, 222.2222222222vw)) !important;
+}
+
+#Cocos2dGameContainer {
+  position: fixed !important;
+  left: 50% !important;
+  top: 50% !important;
+  transform: translate(-50%, -50%) !important;
+  margin: 0 !important;
+  overflow: hidden !important;
+  background: #000 !important;
+}
+
+#GameCanvas {
+  position: absolute !important;
+  left: 0 !important;
+  top: 0 !important;
+  margin: 0 !important;
+  display: block !important;
+}
+
+#splash {
+  position: fixed !important;
+  left: 50% !important;
+  top: 50% !important;
+  transform: translate(-50%, -50%) !important;
+  overflow: hidden !important;
+}
+/* TRUEWAR_FIXED_WEB_FRAME_END */
